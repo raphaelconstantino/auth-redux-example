@@ -1,0 +1,11 @@
+html, body {
+    color : #555353 !important;
+}
+
+footer {
+    padding : 15px;
+    background : #9b59b6;
+    width : 100%;
+    color : #ecf0f1;
+    margin-top: 10px;
+}

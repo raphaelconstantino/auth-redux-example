@@ -1,0 +1,92 @@
+.list audio, .list strong {
+    vertical-align: middle;
+}
+
+.list > p {
+    padding : 10px;
+}
+
+.box-container {
+    padding: 10px 0;
+}
+
+.box {
+    background : #f9f9f9;
+    height : 100%;
+    padding : 10px;
+    border : 1px #e3e2e2 solid;
+    border-radius: 10px;
+    box-shadow: 0 0 1em #dcdcdc;
+}
+
+.box div {
+    padding : 5px 0;
+}
+
+strong {
+    color : #9b59b6;
+}
+
+.loading {
+    margin : 0 auto;
+    background : url('../images/loading.gif');
+    width : 100px;
+    height : 100px;
+}
+
+/*Transiction Effect*/
+.list-enter {
+  opacity: 0.01;
+}
+
+.list-enter.list-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.list-leave {
+  opacity: 1;
+}
+
+.list-leave.list-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
+
+/* STARS */
+.star {
+    display: inline-block;
+    background: url("../images/star.png");
+    height : 19px;
+    vertical-align: bottom;
+}
+
+.star1 {
+    width : 20px;
+}
+
+.star2 {
+    width : 40px;
+}
+
+.star3 {
+    width : 60px;
+}
+
+.star4 {
+    width : 60px;
+}
+
+.star5 {
+    width : 80px;
+}
+
+/* Flexbox*/
+.list > span {
+    display: flex !important;
+    flex-wrap: wrap !important;
+}
+.list > span > [class*='col-'] {
+    display: flex !important;
+    flex-direction: column !important;
+}
